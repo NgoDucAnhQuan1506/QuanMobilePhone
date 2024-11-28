@@ -46,3 +46,13 @@
   - **Taggo AI chatbot**: Hỗ trợ tương tác khách hàng thông minh.
   - **Composer**: Quản lý thư viện PHP.
   - **XAMPP**: Cung cấp môi trường máy chủ cục bộ.
+--- 
+## 🎥 **YouTube Demo** - Xem video demo các chức năng của ứng dụng tại đây: [YouTube Demo - QuanMobilePhone](https://www.youtube.com/watch?v=dliCpqkePgU)
+---
+--- 
+## 📞 **Liên hệ** 
+- **Sinh viên thực hiện**: Ngô Đức Anh Quân 
+- **Email**: ndaq.15062002@gmail.com
+- **GitHub**: [NgoDucAnhQuan1506](https://github.com/NgoDucAnhQuan1506) 
+- **Facebook**: [Ngô Đức Anh Quân - Facebook](https://www.facebook.com/profile.php?id=100029494685009) 
+---
