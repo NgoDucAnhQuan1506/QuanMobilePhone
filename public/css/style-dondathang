@@ -1,0 +1,165 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+tr:hover {
+  background-color: #ddd;
+}
+
+td.actions {
+  text-align: center;
+}
+
+a.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+a.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+a.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid black;
+  }
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  .container{
+      display: flex;
+      justify-content: space-between;
+      text-align: right;
+      padding: 10px;
+      background-color: pink;
+  }
+  span{
+      color: red;
+  }
+  a{
+      color: blue;
+      text-decoration: none;
+  }
+  a:hover {
+      color: red;
+      transition: all 0.2s;
+  }
+  .container-a table{
+      width: 100%; 
+      height: 160px;
+  }
+  .container-a h2{
+      text-align: center; 
+      background-color: #C0C0C0;
+  }
+  thead{
+      background-color: red;
+  }
+  th{
+      font-size: larger;
+  }
+  td{
+      font-size: medium;
+      text-align: center;
+  }
+  /* Thay đổi màu sắc cho phần tử */
+form {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  font-size: 16px;
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Thêm hiệu ứng hover */
+select:hover {
+  background-color: #e6e6e6;
+}
+
+/* Thêm hiệu ứng focus */
+select:focus {
+  outline: none;
+  box-shadow: 0 0 5px #009688;
+}
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+.transaction-history {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.transaction-history i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #999;
+}
+
+.transaction-history span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
