@@ -285,6 +285,7 @@
                         <div class="section">
                             <h3>Thông tin đơn hàng</h3>
                             <div class="item"><strong>Mã đơn hàng:</strong> {{ $order->order_code }}</div>
+                            <div class="item"><strong>Ngày đặt:</strong> {{ \Carbon\Carbon::parse($order->created_at)->format('d/m/Y') }}</div>
                             <div class="item"><strong>Tên khách hàng:</strong> {{ $order->customer_name }}</div>
                             <div class="item"><strong>Số điện thoại:</strong> {{ $order->customer_phone }}</div>
                             <div class="item"><strong>Email:</strong> {{ $order->customer_email }}</div>
